@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File resource string untuk aplikasi kalkulator tabung -->
+<resources>
+    <!-- Nama aplikasi yang ditampilkan di toolbar -->
+    <string name="app_name">Tabung</string>
+</resources>
