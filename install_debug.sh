@@ -7,7 +7,7 @@ if [ $? -eq 0 ]; then
     echo "Build successful, proceeding with installation..."
     
     # Get the package name from AndroidManifest.xml
-    PACKAGE_NAME="com.example.templateapp"
+    PACKAGE_NAME="com.example.tabung"
     
     echo "Uninstalling previous version if exists..."
     adb uninstall $PACKAGE_NAME

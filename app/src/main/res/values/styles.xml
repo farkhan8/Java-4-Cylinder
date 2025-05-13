@@ -1,18 +1,18 @@
 <resources>
-    <style name="Theme.TemplateApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/light_blue_300</item>
-        <item name="colorPrimaryVariant">@color/light_blue_500</item>
+        <item name="colorPrimary">@color/green_500</item>
+        <item name="colorPrimaryVariant">@color/green_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/light_blue_200</item>
-        <item name="colorSecondaryVariant">@color/light_blue_300</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">@color/light_green_200</item>
+        <item name="colorSecondaryVariant">@color/light_green_400</item>
+        <item name="colorOnSecondary">@color/dark_gray</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/light_blue_300</item>
+        <item name="android:statusBarColor">@color/green_700</item>
         <!-- Background and text colors -->
         <item name="android:windowBackground">@color/white</item>
-        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorPrimary">@color/dark_gray</item>
         <item name="android:textColorSecondary">#757575</item>
         <!-- Toolbar styles -->
         <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.Primary</item>
@@ -20,9 +20,11 @@
     </style>
 
     <!-- Define the colors -->
-    <color name="light_blue_200">#81D4FA</color>
-    <color name="light_blue_300">#4FC3F7</color>
-    <color name="light_blue_500">#03A9F4</color>
+    <color name="light_green_200">#C8E6C9</color>
+    <color name="light_green_400">#81C784</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_700">#388E3C</color>
     <color name="white">#FFFFFF</color>
+    <color name="dark_gray">#212121</color>
     <color name="black">#000000</color>
 </resources>
